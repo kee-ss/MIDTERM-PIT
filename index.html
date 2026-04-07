@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div style="text-align: right; width: 70%; margin: 20px auto;">
+  <button id="darkModeToggle">Toggle Dark Mode</button>
+</div>
+
+<section id="profile">
+  <img src="profile.jpg" alt="Profile Picture">
+  <h2>Kelly Angela G. Anggaon</h2>
+  <h3>BS Information Technology Student</h3>
+  <p><strong>Address:</strong> Lunao, Gingoog City</p>
+  <p><strong>Contact:</strong> 09123456789</p>
+  <p><strong>Email:</strong> kellyanggaon26@gmail.com</p>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am an Information Technology student with knowledge in web development, programming, and database management. I am passionate about building systems and learning new technologies. I am hardworking, responsible, and willing to learn new skills. I enjoy collaborating with others to solve complex problems and create efficient solutions. I am always looking for opportunities to apply my skills in real-world projects. My goal is to contribute to innovative IT solutions that make a positive impact.
+  </p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+    <li><strong>Elementary:</strong> Lunao Central School</li>
+    <li><strong>Highschool:</strong> Saint Mary's Academy</li>
+    <li><strong>Senior high school:</strong> Christ the King College</li>
+    <li><strong>College:</strong> University of Science and Technology of Southern Philippines</li>
+  </ul>
+</section>
+
+<section id="skills"> 
+    <h2>Skills</h2> 
+    <ul id="skillsList">
+        <li>Communication</li> 
+        <li>Time Management</li> 
+        <li>Teamwork / Collaboration</li> 
+        <li>Adaptability</li> 
+    </ul> 
+        <input type="text" id="newSkill" placeholder="Add a new skill"> 
+    <button id="addSkillBtn">Add Skill</button> </section>
+
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul id="projectList">
+      <li><strong>Online Store Website</strong> – Built using HTML, CSS, JavaScript; includes product catalog and checkout.</li>
+      <li><strong>Sales Data Dashboard</strong> – Visualizes sales using charts and filters (Excel / Power BI).</li>
+      <li><strong>Portfolio Dashboard</strong> – Personal website to showcase skills, projects, and resume.</li>
+      <li><strong>Task Manager Pro</strong> – Desktop app to manage tasks using arrays, stacks, queues, and linked lists.</li>
+    </ul>
+
+    <input type="text" id="addProject" placeholder="Add new project">
+    <button id="addBtn">Add</button>
+</section>
+
+
+<section id="contact">
+  <h2>Contact</h2>
+  <form id="form">
+    <input type="text" id="name" placeholder="Name"><br>
+    <input type="email" id="email" placeholder="Email"><br>
+    <textarea id="message" placeholder="Message"></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+  <p id="msg"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
